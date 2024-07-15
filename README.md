@@ -54,6 +54,8 @@ Você também será solicitado a inserir o número de artigos que deseja extrair
 
 Você também pode inserir um link para um servidor remoto (que deve ter o modelo Llama3 instalado) para rodar a sumarização. Isso é especialmente útil se você deseja rodar o projeto em um servidor com mais poder computacional. Mas lembre-se de que é possível utilizar o Google Colab, conforme mencionado anteriormente.
 
+Ao final da execução, o programa gerará um sumário dos artigos e gerará um arquivo .xlsx com os sumários, que pode ser encontrado na pasta `resumos`.
+
 --- 
 
 # [Introduction [EN]](#introduction-en)
@@ -105,3 +107,5 @@ This command will start the program, and you will be prompted to enter the searc
 You will also be prompted to enter the number of papers you want to extract, the sortin criteria and the time range. You can also choose between the summarization methods available. This contains the option of summarizing the paper using the full text, or summarizing the paper section by section. 
 
 You can also input a link to a remote server (which should have the Llama3 model installed) to run the summarization. This is especially useful if you want to run the project on a server with more computational power. But remember that you can use Google Colab, as mentioned earlier.
+
+By the end of the execution, the program will generate a summary of the articles and output an .xlsx file with the summaries, which can be found in the `resumos` folder.
